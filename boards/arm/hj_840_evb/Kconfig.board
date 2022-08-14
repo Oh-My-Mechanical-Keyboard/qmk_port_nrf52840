@@ -1,0 +1,6 @@
+# Copyright (c) 2022 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_HJ_840_EVB
+	bool "HJ-840_EVB"
+	depends on SOC_NRF52840_QIAA
